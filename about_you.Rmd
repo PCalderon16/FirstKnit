@@ -1,12 +1,18 @@
 ---
 title: "First Knit"
 author: "Precious Calderon"
-output: 
+date: "`r Sys.Date()`"
+output:
   html_document:
-    number_sections: true
-    toc: true
+    number_sections: yes
+    toc: yes
     toc_depth: 5
-date: "`r Sys.Date()`"   
+  word_document:
+    toc: yes
+    toc_depth: '5'
+  pdf_document:
+    toc: yes
+    toc_depth: '5'
 ---
 
 # A Little Survey
@@ -18,7 +24,7 @@ Where did you attend High School, and did you graduate? Compare english class to
   
 ### my answer     
   
-
+I went to Eastside High School, but I'm originally from the Philippines. I spent 17 years there and then moved here to the US. I only attended Eastside for one semester and graduated soon after. Between Math and English, I find the former easier than the latter. But among all subjects, I do best in and enjoy Chemistry the most. 
      
 
 
